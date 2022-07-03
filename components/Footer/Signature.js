@@ -5,7 +5,7 @@ const style = {
   wrapper:
     "bg-[#] flex flex-col mx-auto items-center justify-center py-1 md:py-4",
   list: "block my-4 py-2 px-2 md:px-4 font-sm md:text-sm text-gray-100 font-bold hover:text-[#ffc900]  transition duration-[300ms] hover:mx-4 transition-all duration-[400ms]",
-  signatureContent: "text-gray-100 text-xs md:text-sm text-gray-400 py-2",
+  signatureContent: "text-gray-100 text-xs md:text-sm text-gray-400 py-2 text-center",
 };
 const Signature = () => {
   return (
