@@ -2,7 +2,7 @@ import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { AiFillYoutube, AiFillLinkedin } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
-import { AiOutlineMail ,AiOutlineReddit} from "react-icons/ai";
+import { AiOutlineMail ,AiOutlineReddit,AiOutlineWhatsApp} from "react-icons/ai";
 
 const style = {
   wrapper:
@@ -37,6 +37,12 @@ const Social = () => {
       >
         <BsTwitter className="text-2xl" />
       </a>
+ <a
+href="whatsapp://send?text=https://powerrangersgamesfree.com"
+                 target="__blank"
+                className={style.social}
+              >
+<AiOutlineWhatsApp className="text-2xl"/>              </a>
 
  <a href="mailto:replymebycontactus@gmail.com" className={style.social}>
         <AiOutlineMail className="text-2xl" />
