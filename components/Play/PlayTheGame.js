@@ -100,7 +100,7 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
             rating={r}
             numberOfStars={5}
             starRatedColor="#ffc900"
-            starEmptyColor="gray"
+            starEmptyColor="white"
             changeRating={handleRatingChange}
             name="rating"
             starHoverColor="#ffc900"
