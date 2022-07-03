@@ -2,7 +2,7 @@ import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { AiFillYoutube, AiFillLinkedin } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail ,AiOutlineReddit} from "react-icons/ai";
 
 const style = {
   wrapper:
@@ -22,12 +22,12 @@ const Social = () => {
         <BsFacebook className="text-2xl" />
       </a>
       <a
-        aria-label="link to  account instagram"
+        aria-label="link to  account reddit"
         className={style.social}
         target="_black"
-        href="http://www.instagram.com"
+        href="https://www.reddit.com/submit?url=https%3A%2F%2Fpowerrangersgamesfree.com"
       >
-        <BsInstagram className="text-2xl" />
+        <AiOutlineReddit className="text-2xl" />
       </a>
       <a
         aria-label="link to  account twitter"
