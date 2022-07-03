@@ -25,10 +25,10 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
   useLayoutEffect(() => {
     if (elRef.current && gameData.length > 0) {
       elRef.current.firstElementChild.style.height = `${
-        width > 750 && width < 1000 ? "400px" : width > 1000 ? "520px" : "350px"
+        width > 750 && width < 1000 ? "400px" : width > 1200 ? "520px" : "350px"
       } `;
       elRef.current.firstElementChild.style.width = `${
-        width > 750 && width < 1000 ? "650px" : width > 1000 ? "750px" : "350px"
+        width > 750 && width < 1000 ? "650px" : width > 1200 ? "750px" : "350px"
       }`;
     }
   });
