@@ -11,7 +11,7 @@ const style = {
 const PlayHeader = ({ headingText }) => {
   return (
     // will take the text as the argument
-    <div className={style.wrapper} style={{ background: 'linear-gradient(rgba(7, 0, 41, 1), rgba(7, 0, 41, 1)),url("https://res.cloudinary.com/shariqcloud/image/upload/v1656325697/Power%20Rangers/back1_hpjzoc.webp")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'auto' }}>
+    <div className={style.wrapper} style={{ background: 'linear-gradient(rgba(7, 0, 41, 0.8), rgba(7, 0, 41, 0.1)),url("https://res.cloudinary.com/shariqcloud/image/upload/v1656325697/Power%20Rangers/back1_hpjzoc.webp")', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'auto' }}>
       <h2 className={style.smallHeading} style={{ fontFamily: 'Poppins, sans-serif' }} >
         {headingText}
       </h2>
