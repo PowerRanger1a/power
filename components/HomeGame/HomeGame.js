@@ -2,7 +2,7 @@ import React from "react";
 import GameGrid from "./GameGrid";
 
 const style = {
-  wrapper: "flex flex-col w-[90%] md:w-[80%] mx-auto py-12 rounded-xl",
+  wrapper: "flex flex-col w-[90%] md:w-[90%] mx-auto py-12 rounded-xl",
   heading: "text-4xl md:text-5xl text-[#ffc900] text-center mt-8",
   heading1: "text-3xl md:text-4xl text-[#ffc900] text-center mt-8",
   para: "text-gray-200 text-sm text-center my-3 w-[80%] md:w-[60%] mx-auto",
