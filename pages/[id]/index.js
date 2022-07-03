@@ -12,7 +12,7 @@ const SingleGameDetails = (props) => {
   // getting the id from the route that is called
   const { id } = router.query;
   return (
-    <div className="main-bg">
+    <div className="">
       <Navbar />
       <Play data={props.games} id={id} />
     </div>
