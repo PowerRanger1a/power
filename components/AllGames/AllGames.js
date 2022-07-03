@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 import client from "../../pages/api/client";
 import stringSimilarity from "string-similarity";
 const style = {
-  wrapper: " flex flex-col ",
+  wrapper: "bg-gray-50 flex flex-col ",
   allGamesContainer: "w-[90%] md:w-[80%] mx-auto py-12 rounded-xl",
   allGame: "cursor-pointer text-[#ffc900] mx-auto border-b-2 border-[#ffc900] text-xl",
 };
