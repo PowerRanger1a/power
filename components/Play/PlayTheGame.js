@@ -9,7 +9,7 @@ const tokenWithWriteAccess =
   "skQMjV6Hnuxm8Kdb3AeslehiTTW4TxW0WLSiaKOQEExGTokWbKZ4PwDynNFV0eZUJoPeLr89BJeR1fh6nX857Srjrzq2ssiyrD3uyBrPXCTvPchN2z46edP4PZxvxLHL377swnWdgY9GJsfC5DxvRKKcPEjxQiQocQQWRkrUPkzv3GFqMPyt";
 const style = {
   wrapper: "flex mx-auto my-6 flex-col items-center w-[100%]",
-  para: "text-gray-600 w-[95%] w-[85%] lg:w-[70%] md:text-left mx-auto md:my-8 my-12  text-center px-6 md:px-8 p-8 border-2 border-[#ffc900] rounded-lg",
+  para: "text-gray-50 w-[95%] w-[85%] lg:w-[70%] md:text-left mx-auto md:my-8 my-12  text-center px-6 md:px-8 p-8 border-2 border-[#ffc900] rounded-lg",
   gameNameHeading: "text-2xl md:text-4xl text-[#ffc900] mt-6 mx-6 text-center",
   otherGameGrid:
     "text-2xl md:text-4xl text-[#ffc900] mt-16 mx-auto text-center my-2",
