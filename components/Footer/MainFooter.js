@@ -3,13 +3,13 @@ import Image from "next/image";
 import {AiOutlineMail} from 'react-icons/ai'
 const style = {
   wrapper:
-    "md:my-8 lg:my-5 flex flex-col md:flex-row items-center justify-center  w-[75%] md:w-[80%] mx-auto",
-  center: "w-full md:w-[65%] flex flex-col items-center justify-center my-6",
-  contact: "w-full md:w-[65%] my-6 flex flex-col items-center jusitfy-center",
+    "md:my-8 lg:my-4 flex flex-col md:flex-row items-center justify-center  w-[75%] md:w-[80%] mx-auto",
+  center: "w-full md:w-[65%] flex flex-col items-center justify-center my-4",
+  contact: "w-full md:w-[65%] my-4 flex flex-col items-center jusitfy-center",
   ourAddress: "text-stone-400 text-sm md:text-md text-center",
   contactContent: "text-stone-400 text-sm md:text-md text-center",
   info: "text-stone-400 text-sm md:text-md text-center mt-5",
-  heading: "text-[#EBB43D] text-md md:text-lg text-center my-6",
+  heading: "text-[#EBB43D] text-md md:text-lg text-center my-4",
 };
 
 const MainFooter = () => {
