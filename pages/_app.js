@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title key={"title"}>Power Rangers Free</title>
-        <link rel="icon" href="/icon1.webp" />
+        <link rel="icon" href="/logo.webp" />
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Online power ranger games" />
