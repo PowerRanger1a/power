@@ -10,11 +10,11 @@ const style = {
 const PlaySingleImg = (props) => {
   return (
     <Link href={`/${props.id}`}>
-      <div className={style.wrapper}  style={{ fontFamily: 'Poppins, sans-serif' }}>
+      <a className={style.wrapper}  style={{ fontFamily: 'Poppins, sans-serif' }}>
         {/* <img src={props.thumbnail} alt="" className={style.img} /> */}
         <img src={`${urlForThumbnail(props.thumbnail)}`} alt="game-image" className={style.img} />
         <p className={style.para} >{props.name}</p>
-      </div>
+      </a>
     </Link>
   );
 };
