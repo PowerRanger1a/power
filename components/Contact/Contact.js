@@ -5,7 +5,7 @@ import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import ContactForm from "./ContactForm";
 import { NextSeo } from "next-seo";
 const style = {
-  wrapper: " flex flex-col ",
+  wrapper: "bg-gray-50 flex flex-col ",
   contactContainer:
     "px-3 md:px-5 py-5 md:py-6 w-[90%] md:w-[50%] lg:w-[40%] mx-auto bg-white my-16",
   smallHeading:
