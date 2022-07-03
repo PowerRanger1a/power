@@ -3,7 +3,7 @@ import Image from "next/image";
 import {AiOutlineMail} from 'react-icons/ai'
 const style = {
   wrapper:
-    "md:my-8 lg:my-12 flex flex-col md:flex-row items-center justify-center  w-[75%] md:w-[80%] mx-auto",
+    "md:my-8 lg:my-5 flex flex-col md:flex-row items-center justify-center  w-[75%] md:w-[80%] mx-auto",
   center: "w-full md:w-[65%] flex flex-col items-center justify-center my-6",
   contact: "w-full md:w-[65%] my-6 flex flex-col items-center jusitfy-center",
   ourAddress: "text-stone-400 text-sm md:text-md text-center",
