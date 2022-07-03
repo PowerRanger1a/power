@@ -16,7 +16,7 @@ const Footer = () => {
         src="https://res.cloudinary.com/shariqcloud/image/upload/v1656325697/Power%20Rangers/fire_zhfuhk.webp"
         alt=""
         srcset=""
-        className="hidden lg:flex w-[11%] "
+        className="hidden lg:flex w-[11%] ml-8"
       />
       <div className={style.wrapper}>
         <div className={style.main}>
