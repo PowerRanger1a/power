@@ -27,7 +27,7 @@ const Social = () => {
         target="_black"
         href="https://www.reddit.com/submit?url=https%3A%2F%2Fpowerrangersgamesfree.com"
       >
-        <AiOutlineReddit className="text-2xl" />
+        <AiOutlineReddit className="text-3xl" />
       </a>
       <a
         aria-label="link to  account twitter"
