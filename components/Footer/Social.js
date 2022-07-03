@@ -2,6 +2,8 @@ import React from "react";
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { AiFillYoutube, AiFillLinkedin } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+
 const style = {
   wrapper:
     "flex mx-auto items-center justify-center gap-8 md:gap-12 my-8 md:my-12",
