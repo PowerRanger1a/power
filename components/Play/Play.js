@@ -7,7 +7,7 @@ import client from "../../pages/api/client";
 const style = {
   wrapper: "flex flex-col bg-gray-50 ",
   gameContainer:
-    "px-3 md:px-5 py-5 md:py-6 w-[90%] md:w-[85%] lg:w-[80%] mx-auto bg-white my-16",
+    "px-3 md:px-5 py-5 md:py-6 w-[90%] md:w-[85%] lg:w-[80%] mx-auto bg-[#070029] my-16",
   smallHeading:
     " text-4xl md:text-5xl max-w-fit mx-auto py-2 text-[#ffc900] my-6",
     singleGameContainer: "flex items-center",
