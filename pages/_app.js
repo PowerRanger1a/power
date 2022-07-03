@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title key={"title"}>Power Rangers Free</title>
+        <title key={"title"}>Power Rangers Games</title>
         <link rel="icon" href="/logo.webp" />
 
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
