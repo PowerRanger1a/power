@@ -6,7 +6,7 @@ import { AiOutlineMail ,AiOutlineReddit} from "react-icons/ai";
 
 const style = {
   wrapper:
-    "flex mx-auto items-center justify-center gap-8 md:gap-12 my-8 md:my-12",
+    "flex mx-auto items-center justify-center gap-8 md:gap-12 my-8 md:my-4",
   social:
     "text-gray-100 hover:text-[#ffc900] text-7xl md:text-xl hover:mx-4 transition-all duration-[300ms] cursor-pointer",
 };
