@@ -5,7 +5,7 @@ import PlayTheGame from "./PlayTheGame";
 import { NextSeo } from "next-seo"; 
 import client from "../../pages/api/client";
 const style = {
-  wrapper: "bg-[#F5F4F4] flex flex-col ",
+  wrapper: "flex flex-col ",
   gameContainer:
     "px-3 md:px-5 py-5 md:py-6 w-[90%] md:w-[85%] lg:w-[80%] mx-auto bg-white my-16",
   smallHeading:
