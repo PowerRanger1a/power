@@ -17,7 +17,7 @@ const AllGames = ({ data }) => {
     for (let g of data) {
       g.keyword.map((a) => {
         let d = stringSimilarity.compareTwoStrings(searchValue, a);
-        if (d > 0.8) {
+        if (d > 0.4) {
           ids = [...ids, g];
         }
       });
