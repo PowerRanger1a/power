@@ -113,13 +113,7 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
 
         <h2 className={style.gameNameHeading}>Play {gameData[0].name} Game</h2>
         <h2 className={style.para}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          non unde, quod inventore quaerat vero aliquid, dolorem maiores
-          pariatur sit dolore atque amet autem earum nesciunt reprehenderit
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          non unde, quod inventore quaerat vero aliquid, dolorem maiores
-          pariatur sit dolore atque amet autem earum nesciunt reprehenderit
-          recusandae. Explicabo, voluptate!Lorem
+         {gameData[0].description}
         </h2>
       </div>
       <div>
