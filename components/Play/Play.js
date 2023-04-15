@@ -9,7 +9,7 @@ const style = {
   gameContainer:
     "px-3 md:px-5 py-5 md:py-6 w-[98%] md:w-[98%] lg:w-[95%] mx-auto main-bg my-16",
   smallHeading:
-    " text-xl md:text-xl max-w-fit mx-auto py-2 text-[#ffc900] my-6",
+    " text-lg md:text-lg max-w-fit mx-auto py-2 text-[#ffc900] my-6",
     singleGameContainer: "flex items-center",
   para: "text-stone-600 text-sm md:text-sm my-2 md:my-4 hover:text-stone-900",
 };
