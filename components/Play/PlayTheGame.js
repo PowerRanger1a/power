@@ -10,7 +10,7 @@ const tokenWithWriteAccess =
 const style = {
   wrapper: "flex mx-auto my-6 flex-col items-center w-[100%]",
   para: "text-gray-50 w-[95%] w-[85%] lg:w-[70%] md:text-left mx-auto md:my-8 my-12  text-center px-6 md:px-8 p-8 border-2 border-[#ffc900] rounded-lg",
-  
+  para1:'text-center text-[#ffc900] text-lg md:text-lg',
   gameNameHeading: "text-2xl md:text-4xl text-[#ffc900] mt-6 mx-6 text-center",
   otherGameGrid:
     "text-2xl md:text-4xl text-[#ffc900] mt-16 mx-auto text-center my-2",
@@ -114,7 +114,7 @@ const PlayTheGame = ({ gameData, similarGameData }) => {
 
         <h2 className={style.gameNameHeading}>Play {gameData[0].name} Game</h2>
         <div className={style.para}>
-                    <p>{gameData[0].name}</p>
+                    <p className={style.para1}>{gameData[0].name}</p>
 
           <p>{gameData[0].description}</p>
         </div>
