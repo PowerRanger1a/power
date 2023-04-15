@@ -92,7 +92,7 @@ const Home = () => {
         <div className={style.mainHeading}>
           <FaQuoteLeft className="" />
           <TextStyled ref={wavyTextRef} className="ml-4 my-2">
-            Hey, I'm Ranger in power rangers online games. The free games
+            He, I'm Ranger in power rangers online games. The free games
             without flash player. The Power Rangers games online are a great way
             to meet new people and have fun! Play More Games Here.
           </TextStyled>
