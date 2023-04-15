@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const style = {
   wrapper: 'h-[35vh] w-[100vw] flex items-center justify-center flex flex-col',
-  smallHeading: 'text-4xl md:text-6xl text-[#ffc900] tracking-wider my-12',
+  smallHeading: 'text-3xl md:text-4xl text-[#ffc900] tracking-wider my-12',
   pagination:'flex flex-row text-[#ffc900] ',
   pagi:'text-lg md:text-md  mx-1 cursor-pointer'
 }
